@@ -69,17 +69,52 @@ export default function FloatingGallery() {
       className={styles.gallery_wrapper}
     >
       <div ref={plane1} className={styles.plane}>
-        <Image src={img_2} alt="placeholder image" width={300} />
-        <Image src={img_7} alt="placeholder image" width={225} />
+        <Image
+          priority={true}
+          src={img_2}
+          alt="placeholder image"
+          width={300}
+        />
+        <Image
+          priority={true}
+          src={img_7}
+          alt="placeholder image"
+          width={225}
+        />
       </div>
       <div ref={plane2} className={styles.plane}>
-        <Image src={img_4} alt="placeholder image" width={250} />
-        <Image src={img_6} alt="placeholder image" width={200} />
-        <Image src={img_8} alt="placeholder image" width={225} />
+        <Image
+          priority={true}
+          src={img_4}
+          alt="placeholder image"
+          width={250}
+        />
+        <Image
+          priority={true}
+          src={img_6}
+          alt="placeholder image"
+          width={200}
+        />
+        <Image
+          priority={true}
+          src={img_8}
+          alt="placeholder image"
+          width={225}
+        />
       </div>
       <div ref={plane3} className={styles.plane}>
-        <Image src={img_3} alt="placeholder image" width={150} />
-        <Image src={img_5} alt="placeholder image" width={200} />
+        <Image
+          priority={true}
+          src={img_3}
+          alt="placeholder image"
+          width={150}
+        />
+        <Image
+          priority={true}
+          src={img_5}
+          alt="placeholder image"
+          width={200}
+        />
       </div>
       <div className={styles.title}>
         <h1>Floating images gallery</h1>

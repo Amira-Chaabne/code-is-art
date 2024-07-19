@@ -6,9 +6,9 @@ import { ScrollTrigger } from "gsap/all";
 import gsap from "gsap";
 
 export default function TextScroll() {
-  const firstText = useRef(null);
-  const secondText = useRef(null);
-  const slider = useRef(null);
+  const firstText = useRef<HTMLParagraphElement | null>(null);
+  const secondText = useRef<HTMLParagraphElement | null>(null);
+  const slider = useRef<gsap.core.Timeline | null>(null);
   let xPercent = 0;
   let direction = -1;
 
